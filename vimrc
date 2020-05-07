@@ -22,6 +22,9 @@ set tabstop=4
 set softtabstop=4
 set expandtab
 
+" enable autoindent so that lists are formatted properly
+set autoindent
+
 " set filetype off for vundle
 filetype off
 
