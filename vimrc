@@ -43,3 +43,6 @@ let g:jedi#show_call_signatures="0"
 
 " use filetype-specific indenting
 filetype indent plugin on
+
+" to enable clang integration...
+"let g:clang_library_path=/path/to/libclang
