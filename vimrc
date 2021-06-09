@@ -25,6 +25,9 @@ set expandtab
 " enable autoindent so that lists are formatted properly
 set autoindent
 
+" fix backspace
+set backspace=indent,eol,start
+
 " set filetype off for vundle
 filetype off
 
@@ -45,4 +48,7 @@ let g:jedi#show_call_signatures="0"
 filetype indent plugin on
 
 " to enable clang integration...
-"let g:clang_library_path=/path/to/libclang
+"let g:clang_library_path="/path/to/libclang"
+
+" source custom vim settings
+runtime custom.vim
